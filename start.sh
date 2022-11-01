@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/scroogex/adgfilter.git /adgfilter
+  git clone https://github.com/scrooge001/adgfilter.git /adgfilter
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /adgfilter
